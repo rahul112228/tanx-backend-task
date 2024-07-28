@@ -1,0 +1,9 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.2
+  - django
+  - djangorestframework
+  - psycopg2-binary
